@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:padding="0dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name"
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="20pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_description"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/toy_diy"
+        android:src="@drawable/toy_diy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:contentDescription="@string/app_name"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:padding="4dp" />
+</LinearLayout>
